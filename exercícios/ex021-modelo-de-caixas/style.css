@@ -1,0 +1,32 @@
+header{
+    border: 2px solid lightgray;
+    padding: 5px;
+    margin: 0 10px;
+}
+header > h1 {
+    margin: 5px 10px 20px 10px;
+    text-align: center;
+}
+nav{
+    background-color: antiquewhite;
+}
+nav > a {
+    margin: 60px;
+    text-decoration: none;
+    color: brown;
+}
+nav > a:hover{
+    color: blueviolet;
+    
+}
+main{
+    border: 2px solid lightgray;
+    padding: 5px;
+    margin: 0 10px;
+
+}
+footer {
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 10px 10px;
+}
