@@ -7,11 +7,13 @@
     font-family: sans-serif;
 }
 
+
 header {
     background-color: black;
     color: white;
     text-align: center;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -19,11 +21,48 @@ header h1 {
     font-size: 5em;
     padding-top: 50px;
     font-weight: normal;
+    font-variant: small-caps;
 }
 
-header a {
+header a, footer a  {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    font-size: 1.0125em;
+}
+
+
+
+div {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: aliceblue;
+    color: black;
+}
+
+.imagem {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.imagem > p {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
